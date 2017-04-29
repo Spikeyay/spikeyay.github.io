@@ -2,37 +2,41 @@ body {
 	margin: 0;
 }
 
+header h1 {
+	margin: 0;
+	border-radius: 12px;
+	background: #ffff00;
+	display: inline;
+	color: black;
+
+}
+
 ul li {
 	color: white;
-	background-color: white;
+	background-color: #ffff00;
+	border-radius: 5px;
 	display: inline-block;
 	list-style-type: none;
 	padding: 5px 15px;
+	margin: 0;
+	
 }
 
+
+
+header nav ul{
+	margin: 0;
+	padding: 0 0 0 15px;
+	display: inline;
+	color: lime;
+}
 header {
 	background: black;
-	color: white;
 	padding: 15px 15px 5px 15px;
 }
 
 
 
-
-ul li {
-	color: white;
-}
-
-header h1 {
-	margin: 0;
-	display: inline;
-}
-
-nav ul{
-	margin: 0;
-	padding: 0 0 0 15px;
-	display: inline;
-}
 
 
 .row {
@@ -56,8 +60,6 @@ footer {
 
 h1 {
 	color: #FFFFFF;
-	display: inline-block;
-	list-style-type: none;
 	padding: 2px 5px 5px 5px;
 	font-size: 200%;
 }
